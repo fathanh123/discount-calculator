@@ -31,7 +31,7 @@ entry_diskon = tk.Entry(window, background="lightgray")
 entry_diskon.pack()
 
 # Button
-btn_hitung = tk.Button(window, text="Hitung Sekarang", command=hitung_diskon, background="aquamarine", foreground="black")
+btn_hitung = tk.Button(window, text="Calculate!", command=hitung_diskon, background="aquamarine", foreground="black")
 btn_hitung.pack(pady=20)
 
 # Result Output
